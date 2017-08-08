@@ -14,11 +14,11 @@ function reqListener() {
     const basics = `
     <h2>The Basics</h2>
     <ul class="basics-list">
-    <li>Name: ${data.name}</li>
-    <li>Github Url: ${data.html_url}</li>
-    <li>Email: lostandlaughing@gmail.com</li>
-    <li>Company: ${data.company}</li>
-    <li>Website: ${data.blog}</li>
+    <li>Name:<span> ${data.name}</span></li>
+    <li>Github Url: <a href="https://github.com/evanCoakley">${data.html_url}</a></li>
+    <li>Email: <span>lostandlaughing@gmail.com<span></li>
+    <li>Company: <span>${data.company}</span></li>
+    <li>Website: <a href=" https://github.com/evanCoakley">${data.blog}</a></li>
     </ul>`
     const story = `
     <h2>The Story</h2>
